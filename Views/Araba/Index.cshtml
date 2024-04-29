@@ -1,0 +1,21 @@
+@model List<Araba>
+
+@{
+    ViewData["Title"] = "araba listesi";
+    
+}
+<h1>Arabalarım</h1>
+@{
+    foreach(Araba a in Model){
+  <div class="row">
+    <div class="col">@a.marka</div>
+    <div class="col">@a.model</div>
+    <div class="col">@a.yakit</div>
+    <div class="col">@a.renk</div>
+
+
+
+  </div>
+
+    }
+}

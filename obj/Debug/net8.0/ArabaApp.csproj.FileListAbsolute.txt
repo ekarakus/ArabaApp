@@ -28,3 +28,4 @@ C:\Users\PC-1\Desktop\aspproje\ArabaApp\obj\Debug\net8.0\refint\ArabaApp.dll
 C:\Users\PC-1\Desktop\aspproje\ArabaApp\obj\Debug\net8.0\ArabaApp.pdb
 C:\Users\PC-1\Desktop\aspproje\ArabaApp\obj\Debug\net8.0\ArabaApp.genruntimeconfig.cache
 C:\Users\PC-1\Desktop\aspproje\ArabaApp\obj\Debug\net8.0\ref\ArabaApp.dll
+C:\Users\PC-1\Desktop\aspproje\ArabaApp\obj\Debug\net8.0\ArabaApp.sourcelink.json
