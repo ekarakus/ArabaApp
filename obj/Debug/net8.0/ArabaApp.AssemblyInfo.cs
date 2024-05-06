@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArabaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c339f84863575eca09dabaf58d1196e8d114f132")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5569ac10297e8edf65179679b7b519246811b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArabaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArabaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

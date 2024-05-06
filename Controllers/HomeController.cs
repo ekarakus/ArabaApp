@@ -11,10 +11,10 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-    }
-
-    public IActionResult Index()
+    } 
+    public IActionResult Index(int id)
     {
+        int deger=id;
         return View();
     }
 

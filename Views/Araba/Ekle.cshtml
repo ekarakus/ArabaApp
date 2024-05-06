@@ -1,0 +1,12 @@
+@{    ViewData["Title"] = "Ekle";}
+<form asp-controller="Araba" method="get" asp-action="Ekle">
+    <div class="row">
+        <input type="text" name="marka" required class="m-2 form-control" 
+        placeholder="Marka yazınız">
+    </div>
+    <div class="row">
+        <input type="text" name="model" required class="m-2 form-control"
+        placeholder="Model yazınız">
+    </div>
+    <button type="submit" class="btn btn-success">Gönder</button>
+</form>

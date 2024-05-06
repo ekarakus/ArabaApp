@@ -32,5 +32,9 @@ namespace ArabaApp.Controllers
         {
             return View("Error!");
         }
+
+        public IActionResult Ekle(){
+            return View();
+        }
     }
 }
