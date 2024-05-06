@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj": {}
+    "c:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj": {
+    "c:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj",
+        "projectUniqueName": "c:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj",
         "projectName": "ArabaApp",
-        "projectPath": "C:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj",
+        "projectPath": "c:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\ArabaApp.csproj",
         "packagesPath": "C:\\Users\\PC-1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\obj\\",
+        "outputPath": "c:\\Users\\PC-1\\Desktop\\aspproje\\ArabaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC-1\\AppData\\Roaming\\NuGet\\NuGet.Config",

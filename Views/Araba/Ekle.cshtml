@@ -1,12 +1,33 @@
+@model Araba
 @{    ViewData["Title"] = "Ekle";}
-<form asp-controller="Araba" method="get" asp-action="Ekle">
+<form asp-controller="Araba" method="post" asp-action="Ekle">
     <div class="row">
-        <input type="text" name="marka" required class="m-2 form-control" 
+        <input type="text" asp-for="marka"  class="m-2 form-control" 
         placeholder="Marka yazınız">
     </div>
     <div class="row">
-        <input type="text" name="model" required class="m-2 form-control"
+        <input type="text" asp-for="model"  class="m-2 form-control"
         placeholder="Model yazınız">
+    </div>
+     <div class="row">
+        <input type="text" asp-for="renk"  class="m-2 form-control"
+        placeholder="Renk yazınız">
+    </div>
+     <div class="row">
+        <input type="text" asp-for="motorHacmi"class="m-2 form-control"
+        placeholder="Motor Hacmi yazınız">
+    </div>
+    <div class="row">
+        <input type="text" asp-for="uretimYili"class="m-2 form-control"
+        placeholder="Üretim Yılı yazınız">
+    </div>
+    <div class="row">
+        <select name="yakitTipi" class="form-control m-2">
+            <option value="1">Elektrik</option>
+            <option value="2">Benzin</option>
+            <option value="3">Motorin</option>
+
+        </select>
     </div>
     <button type="submit" class="btn btn-success">Gönder</button>
 </form>
