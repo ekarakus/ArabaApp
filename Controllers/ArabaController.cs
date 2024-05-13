@@ -35,12 +35,31 @@ namespace ArabaApp.Controllers
 
         public IActionResult Ekle()
         {
+            return View(new Araba() { marka = "Ferrari" });
+        }
+
+        public IActionResult EkleM(Araba model)
+        {
+            return Json(model);
+        }
+        [HttpGet]
+        public IActionResult yukle()
+        {
             return View();
         }
         [HttpPost]
-        public IActionResult Ekle(Araba model)
+        public IActionResult yukle(string adsoyad,IFormFile foto)
         {
-            return Json(model);
+            
+            if(foto==null || foto.Length==0){
+                return Content("foto seçiniz");
+            } 
+            string webadresi=DateTime.Now.ToString("yyMMddHHmmssffff")+"_"+foto.FileName;
+            string yol= Path.Combine(Directory.GetCurrentDirectory(),"wwwroot",webadresi);
+            foto.CopyTo(new FileStream(yol,FileMode.Create));
+            //return Content("Dosya yükleme tamamlandı");
+            ViewBag.yol =webadresi;
+            return View();
         }
     }
 }

@@ -1,0 +1,17 @@
+@{     ViewData["Title"] = "Profil fotosu yükle"; }
+@if(ViewBag.yol!=null){
+    <img src="/@ViewBag.yol" width="400"/>
+}
+<form method="post" enctype="multipart/form-data">
+    <div class="row mt-2">
+        <input class="form-control" name="adsoyad" 
+        type="text" placeholder="Ad soyad yazınız">
+    </div>
+    <div class="row mt-2">
+        <input class="form-control" type="file" name="foto">
+    </div>
+    <div class="row mt-2">
+        <button type="submit" 
+        class="btn btn-success">Yükle</button>
+    </div>
+</form>
