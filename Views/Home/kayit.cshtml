@@ -1,0 +1,51 @@
+@model Kullanici
+@{
+    ViewData["Title"] = "kayit";
+}
+<form method="post">
+    <div class="row mt-2">
+        <label asp-for="Ad" class="col-3"></label>
+        <div class="col-9">
+            <input asp-for="Ad">
+            <span asp-validation-for="Ad" class="text-danger">
+            </span>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <label asp-for="Soyad" class="col-3"></label>
+        <div class="col-9">
+            <input asp-for="Soyad">
+            <span asp-validation-for="Soyad" class="text-danger">
+            </span>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <input asp-for="EmailAdresi">
+        <span asp-validation-for="EmailAdresi" class="text-danger">
+        </span>
+    </div>
+    <div class="row mt-2">
+        <input asp-for="Telefon">
+        <span asp-validation-for="Telefon" class="text-danger">
+        </span>
+    </div>
+    <div class="row mt-2">
+        <input asp-for="Sifre">
+        <span asp-validation-for="Sifre" class="text-danger">
+        </span>
+    </div>
+    <div class="row mt-2">
+        <input asp-for="SifreTekrari">
+        <span asp-validation-for="SifreTekrari" class="text-danger">
+        </span>
+    </div>
+    <div class="row mt-2">
+        <button type="submit" class="btn btn-primary">
+            gönder
+        </button>
+    </div>
+</form>
+<!-- js leri dökümana eklettik-->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

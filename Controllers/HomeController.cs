@@ -11,10 +11,10 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-    } 
+    }
     public IActionResult Index(int id)
     {
-        int deger=id;
+        int deger = id;
         return View();
     }
 
@@ -26,6 +26,19 @@ public class HomeController : Controller
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
+
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+    
+    [HttpGet]
+    public IActionResult kayit()
+    {
+        return View();
+    }
+   [HttpPost]
+    public IActionResult kayit(Kullanici model)
+    {
+        return View();
+    }
+
 }
